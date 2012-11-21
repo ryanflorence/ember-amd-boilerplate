@@ -1,0 +1,7 @@
+{
+  "name": "yourapp",
+  "version": "0.0.0",
+  "dependencies": {
+    "requirejs": "*"
+  }
+}
