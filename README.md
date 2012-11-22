@@ -1,6 +1,6 @@
 # Ember + RequireJS (AMD) Boilerplate App
 
-Work in progress.
+This is an early work in progress.
 
 ## Make it happen
 
