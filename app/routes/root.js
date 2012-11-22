@@ -2,15 +2,15 @@
 define([
   'Ember',
   'routes/root/index',
-  'routes/root/first',
+  'routes/root/lists',
   'routes/root/second',
   'controllers/ApplicationController'
-], function(Ember, index, first, second) {
+], function(Ember, index, lists, second) {
   return Ember.Route.extend({
     index: index,
-    first: first,
+    lists: lists,
     second: second,
-    showFirstView: Ember.Route.transitionTo('first'),
+    showLists: Ember.Route.transitionTo('lists'),
     showSecondView: Ember.Route.transitionTo('second')
   })  
 });
