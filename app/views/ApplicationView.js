@@ -1,5 +1,5 @@
-define(['Ember', 'App'], function(Ember, App) {
+define(['Ember', 'App', 'hbs!application'], function(Ember, App, template) {
   App.ApplicationView = Ember.View.extend({
-    templateName: 'application'
+    template: template
   });
 });

@@ -9,7 +9,6 @@ Work in progress.
 
 ## Todo:
 
-- use `templates` directory instead of `<script type="text/x-handlebars">`
 - get some data going on with ember-data
 - write requirejs middleware to precompile templates at build time
 - write a build script
