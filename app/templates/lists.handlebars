@@ -1,1 +1,8 @@
-<h2>Lists View</h2>
+{{outlet}}
+<ul id="listsNav">
+  {{#each list in controller}}
+  <li class="listsNavItem">
+    <a class="appBoxPadded" href="#" {{action showList list}}>{{list.name}}</a>
+  </li>
+  {{/each}}  
+</ul>

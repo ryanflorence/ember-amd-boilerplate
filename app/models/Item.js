@@ -1,7 +1,6 @@
 define(['App', 'DS'], function(App, DS) {
-  return App.List = DS.Model.extend({
+  return App.Item = DS.Model.extend({
     name: DS.attr('string'),
-    path: DS.attr('string'),
-    path: DS.attr('number')
+    list: DS.belongsTo('App.List')
   });
 });

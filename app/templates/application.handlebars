@@ -1,6 +1,13 @@
-<h1>Ember Example</h1>
-<p>
-  <button {{action showLists}}>Show Lists</button>
-  <button {{action showSecondView}}>Show Second View</button>
-</p>
-{{outlet}}
+<div id="menu" class="appBox">
+  <div class="appBoxPadded">
+    <h1>Ember Lists</h1>
+  </div>
+</div>
+
+<div id="nav" class="appBox">
+  {{outlet nav}}
+</div>
+
+<div id="content" class="appBox">
+  {{outlet content}}
+</div>

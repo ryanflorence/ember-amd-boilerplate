@@ -1,0 +1,10 @@
+<div class="appBoxPadded">
+  <h2>List: {{name}}</h2>
+
+  <h3>Items:</h3>
+  <ul>
+    {{#each item in list.items}}
+    <li>{{item.description}}</li>
+    {{/each}}
+  </ul>
+</div>
